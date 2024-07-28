@@ -11,6 +11,8 @@
 
 
 
+Developed by NullC0d3
+
 RCE Hunter is a Python-based tool developed by NullC0d3 for automated testing of Remote Code Execution (RCE) vulnerabilities. It supports multithreading, payload management, and includes open redirect handling for bypassing certain HTTP status codes.
 
 ## Features
@@ -55,6 +57,12 @@ RCE Hunter is a Python-based tool developed by NullC0d3 for automated testing of
 - `-f` / `--file` : File containing multiple target URLs
 - `-p` / `--payloads` : File containing payloads (required)
 - `-o` / `--open-redirect` : File containing open redirect payloads (required)
+- `-t` / `--threads` : Number of threads (default: 10)
+- `-r` / `--report` : Report file name (default: report.txt)
+- `-d` / `--delay` : Delay between requests in seconds (default: 1.0)
+- `-m` / `--methods` : HTTP methods to use (default: auto, which uses GET, POST, PUT, DELETE, PATCH)
+- `-l` / `--log` : Log file name (default: log.txt)
+- `-v` / `--verbose` : Enable verbose mode
 
 ### Example
 ```sh
