@@ -65,6 +65,9 @@ RCE Hunter is a Python-based tool developed by NullC0d3 for automated testing of
 - `-l` / `--log` : Log file name (default: log.txt)
 - `-v` / `--verbose` : Enable verbose mode
 
+  ![Screenshot 2024-07-29 103900](https://github.com/user-attachments/assets/79466b04-7918-4143-a246-930a3a88365e)
+
+
 ### Example
 ```sh
 python myscript.py -u http://example.com/vulnerable.php -p payloads/commandexc.txt -o payloads/openredirect.txt
