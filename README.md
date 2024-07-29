@@ -40,7 +40,7 @@ RCE Hunter is a Python-based tool developed by NullC0d3 for automated testing of
 ### Manual Setup
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/RCE-Hunter.git
+    git clone https://github.com/Z3r0H0ur666/RCE-Hunter.git
     cd RCE-Hunter
     ```
 2. Install the required packages:
