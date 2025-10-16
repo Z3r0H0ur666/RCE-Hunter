@@ -77,3 +77,6 @@ RCE Hunter is a Python-based tool developed by NullC0d3 for automated testing of
 ### Example
 ```sh
 python myscript.py -u http://example.com/vulnerable.php -p payloads/commandexc.txt -o payloads/openredirect.txt
+
+##Support
+https://medium.com/@nullc0d3
